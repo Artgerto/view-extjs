@@ -30,8 +30,6 @@ Ext.define('App.view.main.MainViewModel', {
 			"root": {
 				"expanded": true,
 				"children": [
-          { "text": "Home", "iconCls": "x-fa fa-home", "xtype": "homeview", "leaf": true },
-					{ "text": "Personnel", "iconCls": "x-fa fa-table", "xtype": "personnelview","leaf": true },
                     { "text": "Notes", "iconCls": "x-fa fa-table", "xtype": "notesview","leaf": true }
 					//add new items on the next line (from sencha-node generate viewpackage)
 
